@@ -102,6 +102,7 @@ document.querySelector("#slider").addEventListener("change", function() {
 // Utilize the existing oldSchool class on the video element
 document.querySelector("#vintage").addEventListener("click", function() {
 	console.log("Old School Style");
+
 	video.classList.add("oldSchool");
 });
 
@@ -109,5 +110,6 @@ document.querySelector("#vintage").addEventListener("click", function() {
 // Remove the oldSchool class from the video
 document.querySelector("#orig").addEventListener("click", function() {
 	console.log("Original Style");
+
 	video.classList.remove("oldSchool");
 });
